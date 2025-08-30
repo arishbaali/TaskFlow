@@ -11,7 +11,6 @@ body {
   color: #e5e5e5;
 }
 
-/* Header */
 header {
   text-align: center;
   padding: 80px 20px;
@@ -23,7 +22,7 @@ header h1 {
   font-size: 3.5rem;
   font-weight: 700;
   margin-bottom: 15px;
-  color: #00c896; /* Emerald */
+  color: #00c896;
 }
 
 header p {
@@ -44,11 +43,10 @@ header button {
 }
 
 header button:hover {
-  background-color: #00a67e; /* darker emerald */
+  background-color: #00a67e;
   color: white;
 }
 
-/* Features */
 .features {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -76,7 +74,6 @@ header button:hover {
   color: #cbd5e1;
 }
 
-/* Reviews */
 .reviews {
   padding: 70px 20px;
   background: #0f0f0f;
@@ -114,7 +111,6 @@ header button:hover {
   color: #00c896;
 }
 
-/* Pricing */
 .pricing {
   padding: 80px 20px;
   text-align: center;
@@ -178,7 +174,6 @@ header button:hover {
   color: white;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 40px 20px;
@@ -205,3 +200,4 @@ footer .icon {
   width: 28px;
   height: 28px;
 }
+
