@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background: #0f0f0f;
+  color: #e5e5e5;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #000, #111);
+  color: #f8fafc;
+}
+
+header h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  margin-bottom: 15px;
+  color: #00c896; /* Emerald */
+}
+
+header p {
+  font-size: 1.25rem;
+  margin-bottom: 30px;
+  opacity: 0.85;
+}
+
+header button {
+  padding: 14px 30px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  background: #00c896;
+  color: #0f0f0f;
+  cursor: pointer;
+}
+
+header button:hover {
+  background-color: #00a67e; /* darker emerald */
+  color: white;
+}
+
+/* Features */
+.features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 40px;
+  padding: 70px 20px;
+  background: #111;
+  text-align: center;
+}
+
+.feature .icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  color: #00c896;
+}
+
+.feature h3 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #00c896;
+}
+
+.feature p {
+  color: #cbd5e1;
+}
+
+/* Reviews */
+.reviews {
+  padding: 70px 20px;
+  background: #0f0f0f;
+  text-align: center;
+}
+
+.reviews h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #00c896;
+}
+
+.review-grid {
+  display: grid;
+  gap: 25px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.review {
+  background: #1a1a1a;
+  padding: 25px;
+  border-radius: 10px;
+  font-style: italic;
+}
+
+.review:hover {
+  background-color: #262626;
+}
+
+.review span {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #00c896;
+}
+
+/* Pricing */
+.pricing {
+  padding: 80px 20px;
+  text-align: center;
+  background: #111;
+}
+
+.pricing h2 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 40px;
+  color: #00c896;
+}
+
+.pricing-grid {
+  display: grid;
+  gap: 35px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.plan {
+  padding: 35px;
+  background: #0f0f0f;
+  border-radius: 12px;
+}
+
+.plan:hover {
+  background-color: #1a1a1a;
+}
+
+.plan h3 {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+  color: #00c896;
+}
+
+.price {
+  font-size: 1.3rem;
+  margin-bottom: 18px;
+  font-weight: bold;
+  color: #f1f5f9;
+}
+
+.plan p {
+  margin-bottom: 20px;
+  color: #cbd5e1;
+}
+
+.plan button {
+  padding: 12px 24px;
+  background: #00c896;
+  color: #0f0f0f;
+  font-size: 1rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.plan button:hover {
+  background-color: #00a67e;
+  color: white;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #000;
+  color: #cbd5e1;
+}
+
+footer .socials {
+  margin: 20px 0;
+}
+
+footer .socials a {
+  margin: 0 12px;
+  color: #00c896;
+  font-size: 1.4rem;
+  text-decoration: none;
+}
+
+footer .socials a:hover {
+  color: #00a67e;
+}
+
+footer .icon {
+  width: 28px;
+  height: 28px;
+}
